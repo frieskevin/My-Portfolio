@@ -57,10 +57,12 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
-.workbox h3 {
-    position: fixed;
+.workboxtext {
+    position: absolute;
     left: 16px;
     top: 130px;
+    background-color: lightslategray;
+    font-size: 30px;
 
 }
 #contact-me {
