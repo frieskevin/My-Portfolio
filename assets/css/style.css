@@ -5,6 +5,7 @@
     margin: 0;
 }
 header {
+    display: flex;
     padding: 20px;
     background-color: #e1aD01;
     color: black;
@@ -31,11 +32,36 @@ a {
     color: black;
     text-decoration: none;
 }
+.content {
+    display: flex;
+}
+.content h2 {
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 28px;
+}
 #about-me {
     background-color: lightslategray;
 }
 #work {
     background-color: #e1aD01;
+}
+.workbox {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: 3px solid lightslategray;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.workbox h3 {
+    position: fixed;
+    left: 16px;
+    top: 130px;
+
 }
 #contact-me {
     background-color: lightslategray;
