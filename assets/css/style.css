@@ -1,7 +1,6 @@
 * {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 header {
@@ -10,28 +9,23 @@ header {
     background-color: #e1aD01;
     color: black;
     flex-wrap: wrap;
+
 }
 header h1 {
-    display: inline-block;
     font-size: 50px;
 }
 header div {
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
     font-size: 24px;
 }
 header div ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
 }
 header div ul li {
     display: flex;
     margin-left: 30px;
-    text-align: right;
 }
 header div ul li a:hover {
     background-color: lightslategray;
