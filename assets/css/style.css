@@ -10,7 +10,6 @@ header {
     background-color: #e1aD01;
     color: black;
     flex-wrap: wrap;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 header h1 {
     display: inline-block;
@@ -30,9 +29,13 @@ header div ul {
     align-items: flex-end;
 }
 header div ul li {
-    display: inline-block;
+    display: flex;
     margin-left: 30px;
     text-align: right;
+}
+header div ul li a:hover {
+    background-color: lightslategray;
+    border-radius: 5px
 }
 #about-me {
     display: flex;
@@ -45,6 +48,10 @@ header div ul li {
 }
 .kevin-image {
     border: 5px solid #e1aD01;
+    max-height: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
 }
 a {
     color: black;
@@ -80,6 +87,8 @@ a {
     height: 310px;
     width: 310px;
     border: 5px solid lightslategray;
+    border-radius: 10px;
+    margin: 5px;
 }
 .workboxtext {
     position: absolute;
@@ -89,8 +98,6 @@ a {
     font-size: 30px;
     border: 5px solid #e1aD01;
     padding: 5px;
-
-
 }
 #contact-me {
     background-color: lightslategray;
@@ -106,7 +113,13 @@ a {
     display: inline-block;
     margin-left: 30px;
     text-align: center;
+    margin: 20px;
+}
+#contact-me ul li:hover {
+    background-color: #e1aD01;
+    border-radius: 5px;
 }
 footer {
     background-color: #e1aD01;
+    padding: 30px;
 }
