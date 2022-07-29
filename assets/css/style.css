@@ -90,6 +90,12 @@ a {
     border-radius: 10px;
     margin: 5px;
 }
+.workbox a img {
+    opacity: 0.5;
+}
+.workbox a img:hover {
+    opacity: 1;
+}
 .workboxtext {
     position: absolute;
     left: 0px;
